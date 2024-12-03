@@ -1,1 +1,1 @@
-# Project1
+# This is my website for my project, QuickConnekt. QuickConnekt is a software application suite that will be forever growing, with new applications, web-based programs and softwares being added as I create them. This could be seen as my portfolio, as it is non-profit and is an exhibition of my growing programming skills, ranging from web design to front-end and back-end development.
