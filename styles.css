@@ -252,3 +252,135 @@ html, body {
 .j {
 	background-image: url(images/AppIcon/SkyBlue.png)
 }
+
+/*this is where the CSS code begins for the survey page*/
+#survey_title {
+margin-left: auto;
+margin-right: auto;
+text-align: center;}
+
+survey_h1 {
+background-color: black;
+color: white;
+padding: 20px;
+margin: auto;
+width: 100%;
+font-size: 300%}
+
+survey_h3 {
+color: white;
+padding-top: 0px;
+text-align: center;}
+
+survey_p {
+color: white;
+max-width: 500px;}
+
+survey_body {
+font-size: 20px;
+font-family: calibri, arial;
+color: black;
+background-color:  rgb(69,69,69);}
+
+#survey_description {
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+font-size: 20px}
+
+#survey_survey-form {
+margin-left: auto;
+margin-right: auto;
+max-width: 500px;
+background-color: darkgray;}
+
+#survey_submit {
+background-color: black;
+color: white;
+margin: 50px 5px 25px 185px;
+width: 25%}
+
+#survey_name-label {
+display: inline-block;
+margin: 15px 5px 05px 10px;}
+#survey_name {
+width: 45%;
+float: right;
+margin: 10px 5px 5px 145px;}
+
+#survey_email-label {
+display: inline-block;
+justify-content: left;
+margin: 15px 5px 5px 10px;}
+#survey_email {
+width: 45%;
+float: right;
+margin: 5px 5px 5px 114px;}
+
+#survey_number-label {
+display: inline-block;
+justify-content: center;
+width: 45%;
+margin: 30px 5px 5px 10px;}
+#survey_number {
+display: inline;
+width: 45%;
+justify-content: right;
+margin: 30px 5px 5px 24px;}
+
+survey_footer {
+text-align: center;
+font-size: 16px;
+color: white;}
+
+#survey_rating-label1 {
+text-align: center;
+display: inline-block;
+width: 100%;
+margin: 20px 10px 10px 10px;}
+#survey_rating-label2 {
+width: 45%;
+display: inline-block;
+margin: 15px 5px 10px 10px;}
+
+#survey_dropdown {display: inline;
+margin: 8px 5px 5px 5px;
+float: right;
+width: 45%}
+
+#survey_app-option {
+margin: 5px 5px 5px -46px;
+text-align: center;}
+#survey_app-option2 {
+margin: 5px 5px 5px -20px;
+text-align: center;}
+#survey_app-option3 {
+margin: 5px 5px 5px 5px;
+text-align: center;}
+
+#survey_app-option:active, #app-option:checked {
+margin: 5px 5px 5px -46px;
+text-align: center;
+font-weight: bold;}
+#survey_app-option2:active, #app-option:checked  {
+margin: 5px 5px 5px -20px;
+text-align: center;
+font-weight: bold;}
+#survey_app-option3:active, #app-option:checked  {
+margin: 5px 5px 5px 5px;
+text-align: center;
+font-weight: bold;}
+
+#survey_yesnomaybe {
+width: 45%;
+float: right;
+margin: 15px 5px 5px 5px;}
+
+#survey_inline{
+display: inline-block;}
+
+#survey_rank {margin-left: auto;
+margin-right: auto;
+margin-top: -10px;}
