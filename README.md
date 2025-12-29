@@ -6,11 +6,11 @@ Second, the website functions as a living exhibit of my skills as a software dev
 
 #Technologies Used
 
-HTML for semantic structure and content organization
+-HTML for semantic structure and content organization
 
-CSS for layout, styling, and responsive design
+-CSS for layout, styling, and responsive design
 
-JavaScript and Python may be incorporated in future iterations to support interactivity, dynamic content, and backend functionality
+-Adobe Photoshop for icons, visual design, and graphics
 
 #Purpose & Vision
 
