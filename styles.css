@@ -33,6 +33,19 @@ nav a {color: black;
 nav a:hover, nav a:active, nav a:focus {
 	font-weight: bold;}
 
+.navicon-left {
+	display: flex;
+	flex-wrap: nowrap;
+	float: left;
+	width: 35px;
+	height: 35px;}
+
+.navicon-right {
+	display: flex;
+	flex-wrap: nowrap;
+	float: right;
+	width: 35px;
+	height: 35px;}
 
 footer {
 		justify-content: center;
@@ -54,12 +67,7 @@ ul li {
 	align-items: center;
 		padding: 10px;}
 
-.navicon {
-	display: flex;
-	flex-wrap: nowrap;
-	float: left;
-	width: 35px;
-	height: 35px;}
+
 
 /*the black strip above the nav*/
 .divtop {
@@ -76,6 +84,7 @@ ul li {
 	float: right;
 	padding-right: 10px;
 	align-items: center;}
+
 
 
 
