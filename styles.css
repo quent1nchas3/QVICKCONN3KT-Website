@@ -64,9 +64,16 @@ ul li {
 /*the black strip above the nav*/
 .divtop {
 	background-color: black;
-	height: 35px;}
+	height: 15vh;
+	display: flex;
+	justify-content: center;}
+
+.divtop img {
+	max-height: 100%;
+	max-width: 100%;}
 
 .top_icon {
 	float: right;
 	padding-right: 10px;
 	align-items: center;}
+
