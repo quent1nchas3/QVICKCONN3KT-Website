@@ -14,40 +14,43 @@ main {
 	width: 100%;}
 
 
-nav {
-	background-color: white;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;}
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;      
+  padding: 0 20px;            
+  height: 60px;              
+  background-color: white;
+}
 
+.nav-left a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;             
+  font-weight: normal;
+  transition: font-weight 0.2s;
+}
 
-nav a {color: black;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    float: none;
-	padding: 6px;
-    text-decoration: none;
-    text-align: center;}
+.nav-left a:hover,
+.nav-left a:focus,
+.nav-left a:active {
+  font-weight: bold;
+}
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;                    
+}
 
-nav a:hover, nav a:active, nav a:focus {
-	font-weight: bold;}
+.nav-right a img {
+  max-height: 100%;              
+  height: auto;
+  width: auto;
+  display: block;
+}
 
-.navicon-left {
-	display: flex;
-	flex-wrap: nowrap;
-	width: 35px;
-	height: 35px;
-	margin-left: 2%;
-	margin-right: 5%;}
-
-.navicon-right {
-	display: block;
-	flex-wrap: nowrap;
-	width: auto;
-	height: auto;
-	max-height: 100%;}
 
 footer {
 		justify-content: center;
@@ -70,8 +73,6 @@ ul li {
 		padding: 10px;}
 
 
-
-/*the black strip above the nav*/
 .divtop {
 	background-color: black;
 	height: 15vh;
@@ -80,12 +81,11 @@ ul li {
 
 .divtop img {
 	max-height: 95%;
-	max-width: 95%;}
+	max-width: 95%;
+	padding-top: 5%;
+	padding-bottom: 5%;}
 
-.top_icon {
-	float: right;
-	padding-right: 10px;
-	align-items: center;}
+
 
 
 
