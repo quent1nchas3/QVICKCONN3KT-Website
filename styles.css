@@ -41,11 +41,12 @@ nav a:hover, nav a:active, nav a:focus {
 	height: 35px;}
 
 .navicon-right {
-	display: flex;
+	display: block;
 	flex-wrap: nowrap;
 	float: right;
-	width: 35px;
-	height: 35px;}
+	width: auto;
+	height: auto
+	max-height: 100%;}
 
 footer {
 		justify-content: center;
@@ -84,6 +85,7 @@ ul li {
 	float: right;
 	padding-right: 10px;
 	align-items: center;}
+
 
 
 
