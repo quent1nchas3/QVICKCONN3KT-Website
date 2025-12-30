@@ -47,15 +47,14 @@ main {
   justify-content: center;
   align-items: center;
   background-color: black;
-  padding-top: 3vh;
-}
+  margin-top: 20px;}
 
 .centerlogo img {
   height: 100%;
   width: auto;
   max-width: 95%;
-  padding-top: 3vh;
   display: block;
+  margin-top: 20px;
 }
 
 .navbar {
@@ -122,4 +121,5 @@ nav a {
 nav a:hover,
 nav a:active,
 nav a:focus
+
 
