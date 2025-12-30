@@ -51,6 +51,9 @@ font-size: clamp(14px, 1.2vw, 18px);
   align-items: center;
 }
 
+.nav-left {
+	gap: 5vh;
+
 .nav-left li a {
   background-color: white;
   color: black;
@@ -120,8 +123,7 @@ ul {
   	display: flex;}
 
 ul li {
-  	align-items: center;
-	padding: 10px;}
+  	align-items: center;}
 
 .divtop {
   background-color: black;
@@ -141,6 +143,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
