@@ -20,6 +20,7 @@ main {
 
 .navbar {
   display: flex;
+	background-color: white;
   justify-content: space-between;
   align-items: center;
 	flex-wrap: nowrap;
@@ -107,6 +108,7 @@ ul li {
 	justify-content: center;
 	align-items: center;
 	height: 5%;}
+
 
 
 
