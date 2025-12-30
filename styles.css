@@ -127,10 +127,6 @@ nav a {
   align-items: center;
 }
 
-nav a:hover,
-nav a:active,
-nav a:focus
-
 footer {
   font-family: 'QCfont', Aptos, Arial, Verdana;
   background-color: white;
@@ -184,6 +180,7 @@ footer {
   .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
   .nav-right li a img { max-height: 1.5em; }
 }
+
 
 
 
