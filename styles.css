@@ -1,13 +1,13 @@
 
 @font-face {
-  font-family: 'QCfont';        
-  src: url('FoughtknightRegular-Xz9d.ttf') format('ttf');
-	font-weight: normal;
-  font-style: normal;
+  	font-family: 'QCfont';        
+  	src: url('FoughtknightRegular-Xz9d.ttf') format('ttf');
+ 	font-weight: normal;
+  	font-style: normal;
 }
 
 body {
-    font-family: Aptos, Arial, Verdana;
+    	font-family: Aptos, Arial, Verdana;
 	background-color: white;
 	height: 100%;
 	width: 100%;
@@ -23,27 +23,27 @@ main {
 
 /* Navbar container */
 .navbar {
-  display: flex;                 /* Horizontal layout */
-  justify-content: space-between; /* Push left/right containers apart */
-  align-items: center;           /* Vertical centering */
-  height: 60px;                  /* Fixed navbar height */
-  padding: 0 20px;               /* Optional horizontal spacing */
-  background-color: white;   
-  position: fixed;   /* keeps element fixed on screen */
-  top: 0;            /* stick to top */
-  left: 0;           /* align to left edge */
-  width: 100%;       /* full page width */
-  z-index: 1000;  /* Preserve your original background */
+	display: flex;                 /* Horizontal layout */
+	justify-content: space-between; /* Push left/right containers apart */
+	align-items: center;           /* Vertical centering */
+	height: 60px;                  /* Fixed navbar height */
+	padding: 0 20px;               /* Optional horizontal spacing */
+	background-color: white;   
+	position: fixed;   /* keeps element fixed on screen */
+	top: 0;            /* stick to top */
+	left: 0;           /* align to left edge */
+	width: 100%;       /* full page width */
+	z-index: 1000;  /* Preserve your original background */
 }
 
 nav a {
-  color: black;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 6px;
-  display: inline-flex;          
-  justify-content: center;
-  align-items: center;
+	  color: black;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  padding: 6px;
+	  display: inline-flex;          
+	  justify-content: center;
+	  align-items: center;
 }
 
 nav a:hover,
@@ -56,14 +56,14 @@ nav a:focus {
   display: flex;                
   gap: 15px;                     
   align-items: center;
-height: 100%;
+  height: 100%;
 }
 
 .navicon-right {
   display: flex;                
   gap: 10px;                    
   align-items: center;
- height: 100%;
+  height: 100%;
 }
 
 .navicon-right img {
@@ -74,42 +74,43 @@ height: 100%;
 
 
 footer {
-		justify-content: center;
-		background-color: white;
-		text-transform: uppercase;
-		align-items: center;
-		margin: 0 auto;
-		color: black;
-		text-align: center;}
+  justify-content: center;
+  background-color: white;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 0 auto;
+  color: black;
+  text-align: center;}
 	
-ul {justify-content: center;
-		align-items: center;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		display: flex;}
+ul {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;}
 
 ul li {
-	align-items: center;
-		padding: 10px;}
-
+  align-items: center;
+	padding: 10px;}
 
 .divtop {
 	background-color: black;
 	height: 15vh;
 	display: flex;
 	justify-content: center;
-  position: fixed;   /* keeps element fixed on screen */
-  top: 0;            /* stick to top */
-  left: 0;           /* align to left edge */
-  width: 100%;       /* full page width */
-  z-index: 1000;  }
+    position: fixed;   /* keeps element fixed on screen */
+    top: 0;            /* stick to top */
+    left: 0;           /* align to left edge */
+    width: 100%;       /* full page width */
+    z-index: 1000;  }
 
 .divtop img {
 	max-height: 95%;
 	max-width: 95%;
 	padding-top: 1%;
 	padding-bottom: 1%;}
+
 
 
 
