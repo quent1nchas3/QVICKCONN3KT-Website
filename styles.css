@@ -21,14 +21,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5%;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .divtop img {
-  min-height: 14vh;
+  height: 95%;
   width: auto;
   display: block;
+  max-height: 100%;
 }
 
 main {
@@ -135,6 +136,7 @@ footer {
   padding-top: 10px;
   text-align: center;
 }
+
 
 
 
