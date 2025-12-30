@@ -5,9 +5,6 @@
  	font-weight: normal;
   	font-style: normal;}
 
-html, body {
-	height: 100%;}
-
 body {
     font-family: Aptos, Arial, Verdana;
 	background-color: white;
@@ -152,6 +149,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
