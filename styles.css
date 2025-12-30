@@ -1,4 +1,11 @@
-/*entire body of the doc*/
+
+@font-face {
+  font-family: 'QCfont';        
+  src: url('FoughtknightRegular-Xz9d.ttf') format('ttf');
+	font-weight: normal;
+  font-style: normal;
+}
+
 body {
     font-family: Aptos, Arial, Verdana;
 	background-color: white;
@@ -30,6 +37,7 @@ main {
   margin-right: 20px;             
   font-weight: normal;
   transition: font-weight 0.2s;
+	font-family: 'QCfont', Aptos, Arial, Verdana;
 }
 
 .nav-left a:hover,
@@ -84,6 +92,7 @@ ul li {
 	max-width: 95%;
 	padding-top: 5%;
 	padding-bottom: 5%;}
+
 
 
 
