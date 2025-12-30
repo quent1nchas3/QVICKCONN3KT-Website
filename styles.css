@@ -133,15 +133,15 @@ nav a:active,
 nav a:focus
 
 footer {
-  font-family: QCfont, Aptos, Arial, Verdana;
+  font-family: 'QCfont', Aptos, Arial, Verdana;
   background-color: white;
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  height: 10vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   padding-top: 10px;
   text-align: center;
 }
@@ -185,6 +185,7 @@ footer {
   .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
   .nav-right li a img { max-height: 1.5em; }
 }
+
 
 
 
