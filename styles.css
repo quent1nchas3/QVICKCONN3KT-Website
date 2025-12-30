@@ -28,10 +28,14 @@ main {
   align-items: center;           /* Vertical centering */
   height: 60px;                  /* Fixed navbar height */
   padding: 0 20px;               /* Optional horizontal spacing */
-  background-color: white;       /* Preserve your original background */
+  background-color: white;   
+  position: fixed;   /* keeps element fixed on screen */
+  top: 0;            /* stick to top */
+  left: 0;           /* align to left edge */
+  width: 100%;       /* full page width */
+  z-index: 1000;  /* Preserve your original background */
 }
 
-/* All links inside navbar */
 nav a {
   color: black;
   text-transform: uppercase;
@@ -95,13 +99,19 @@ ul li {
 	background-color: black;
 	height: 15vh;
 	display: flex;
-	justify-content: center;}
+	justify-content: center;
+  position: fixed;   /* keeps element fixed on screen */
+  top: 0;            /* stick to top */
+  left: 0;           /* align to left edge */
+  width: 100%;       /* full page width */
+  z-index: 1000;  }
 
 .divtop img {
 	max-height: 95%;
 	max-width: 95%;
 	padding-top: 1%;
 	padding-bottom: 1%;}
+
 
 
 
