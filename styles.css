@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'QCfont';
-  src: url('FoughtknightRegular-Xz9d.ttf') format('truetype');
+  src: url('FoughtknightRegular-Xz9d.ttf') format('truetype'), 
+       url('FoughtKnight.woff') format('woff'),
+       url('FoughtKnight.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -180,6 +182,7 @@ footer {
   .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
   .nav-right li a img { max-height: 1.5em; }
 }
+
 
 
 
