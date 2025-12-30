@@ -17,6 +17,7 @@ body {
 	padding: 0;}
 
 main {
+	height: 25vh;
   background-color: black;
   width: 100%;
   display: flex;
@@ -151,6 +152,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
