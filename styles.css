@@ -52,13 +52,13 @@ font-size: clamp(14px, 1.2vw, 18px);
 }
 
 .nav-left {
-	gap: 5vh;
+	gap: 10px;}
 
 .nav-left li a {
   background-color: white;
   color: black;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 0;
   line-height: 1;
   white-space: nowrap;
 }
@@ -81,7 +81,7 @@ nav a:focus {
 
 .centerlogo {
 	  background-color: black;
-  height: 20vh;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,15 +105,17 @@ nav a {
 	align-items: center;}
 
 footer {
-	font-family: QCfont, Aptos, Arial, Verdana;
-  	justify-content: center;
-  	background-color: white;
-  	text-transform: uppercase;
-  	align-items: center;
-  	margin: 0 auto;
-  	color: black;
-	height: 10%;
-  	text-align: center;}
+  font-family: QCfont, Aptos, Arial, Verdana;
+  background-color: white;
+  text-transform: uppercase;
+  color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+  text-align: center;
+}
 	
 ul {
   	justify-content: center;
@@ -146,6 +148,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
