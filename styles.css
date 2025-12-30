@@ -46,6 +46,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
+	background-color: black;
 }
 
 .centerlogo img {
@@ -147,6 +148,7 @@ ul {
 
 ul li {
   	align-items: center;}
+
 
 
 
