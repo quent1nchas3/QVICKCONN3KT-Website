@@ -64,6 +64,7 @@ main {
   flex-wrap: nowrap;
   padding: 0 20px;
   height: 60px;
+	font-family: 'QCfont', Aptos, Arial, Verdana;
 font-size: clamp(14px, 1.2vw, 18px);
   overflow: hidden;
 }
@@ -146,6 +147,7 @@ ul {
 
 ul li {
   	align-items: center;}
+
 
 
 
