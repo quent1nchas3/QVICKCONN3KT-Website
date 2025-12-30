@@ -116,6 +116,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   padding: 6px;
+  line-height: 1;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -138,6 +139,7 @@ footer {
   padding-top: 10px;
   text-align: center;
 }
+
 
 
 
