@@ -24,12 +24,15 @@ main {
 	align-items: center;          
 	height: 60px;                
 	padding: 0 20px;              
-	background-color: white;   
-	position: fixed;  
-	top: 0;          
-	left: 0;          
-	width: 100%;      
-	z-index: 1000; }
+	background-color: white;}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;}
 
 nav a {
 	color: black;
@@ -40,27 +43,29 @@ nav a {
 	justify-content: center;
 	align-items: center;}
 
+.nav-left li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.nav-right li {
+  margin-left: 15px;
+}
+
+.nav-right li a img {
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  display: block;
+}
+
 nav a:hover,
 nav a:active,
 nav a:focus {
 	font-weight: bold;}
-
-.navicon-left {
-	display: flex;                
-	gap: 15px;                     
-	align-items: center;
-	height: 100%;}
-
-.navicon-right {
-	display: flex;                
-	gap: 10px;                    
-	align-items: center;
-	height: 100%;}
-
-.navicon-right img {
-  	max-height: 80%;             
-  	width: auto;   
-  	display: block;}
 
 footer {
   	justify-content: center;
@@ -99,6 +104,7 @@ ul li {
 	max-width: 95%;
 	padding-top: 1%;
 	padding-bottom: 1%;}
+
 
 
 
