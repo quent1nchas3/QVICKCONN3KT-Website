@@ -13,6 +13,24 @@ body {
 	margin: 0;
 	padding: 0;}
 
+.divtop {
+  background-color: black;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5%;
+  box-sizing: border-box;
+}
+
+.divtop img {
+  height: 95%;
+  max-width: 50vh;
+  width: auto;
+  display: block;
+}
+
 main {
 	height: 25vh;
   background-color: black;
@@ -129,26 +147,8 @@ ul {
 ul li {
   	align-items: center;}
 
-.divtop {
-  background-color: black;
-  height: 15vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2.5%;
-  box-sizing: border-box;
-}
 
-.divtop img {
-  max-height: 95%;
-  max-width: 95%;
-	min-width: 90%;
-	min-height: 90%;
-  height: auto;
-  width: auto;
-  display: block;
-}
+
 
 
 
