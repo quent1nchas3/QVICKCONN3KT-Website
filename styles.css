@@ -109,7 +109,7 @@ main {
 }
 
 .nav-right li a img {
-  max-height: 1.5em;
+  max-height: 2em;
   width: auto;
   flex-shrink: 1;
   display: block;
@@ -184,6 +184,7 @@ footer {
   .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
   .nav-right li a img { max-height: 1.5em; }
 }
+
 
 
 
