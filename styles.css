@@ -95,19 +95,22 @@ ul li {
 	padding: 10px;}
 
 .divtop {
-	background-color: black;
-	height: 15vh;
-	display: flex;}
+  background-color: black;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5%; /* optional: adds 95% scaling buffer */
+  box-sizing: border-box;
+}
 
 .divtop img {
-	max-height: 95%;
-	max-width: 95%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 5%;}
+  max-height: 95%;
+  max-width: 95%;
+  height: auto;
+  width: auto;
+  display: block;
+}
 
 
 
