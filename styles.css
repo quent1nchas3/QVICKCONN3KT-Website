@@ -112,6 +112,7 @@ footer {
   	align-items: center;
   	margin: 0 auto;
   	color: black;
+	height: 10%;
   	text-align: center;}
 	
 ul {
@@ -145,6 +146,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
