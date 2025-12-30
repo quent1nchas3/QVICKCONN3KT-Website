@@ -18,7 +18,7 @@ body {
 
 main {
 	background-color: black;
-	height: 25vh;
+	height: 80%;
 	width: 100%;}
 
 .navbar {
@@ -143,6 +143,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
