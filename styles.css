@@ -5,10 +5,16 @@
   font-style: normal;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
 body {
   font-family: Aptos, Arial, Verdana;
   background-color: white;
-  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -43,7 +49,7 @@ main {
 }
 
 .centerlogo {
-  height: 30vh;
+  max-height: 30vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -179,6 +185,7 @@ footer {
   .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
   .nav-right li a img { max-height: 1.5em; }
 }
+
 
 
 
