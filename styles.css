@@ -53,7 +53,7 @@ main {
 }
 
 .nav-right li a img {
-  max-height: 1em;
+  max-height: 2em;
   width: auto;
   display: block;
 }
@@ -110,6 +110,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
