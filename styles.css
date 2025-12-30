@@ -46,13 +46,13 @@ main {
   align-items: center;
   width: 100%;
 	background-color: black;
-	padding-top: 3px;
+	padding-top: 3vh;
 }
 
 .centerlogo img {
   height: 100%;
   width: auto;
-	padding-top: 3px;
+	padding-top: 3vh;
   max-width: 95%;
   display: block;
 }
@@ -150,6 +150,7 @@ ul {
 
 ul li {
   	align-items: center;}
+
 
 
 
