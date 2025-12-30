@@ -140,6 +140,45 @@ footer {
   text-align: center;
 }
 
+/* ------------------ MEDIA QUERIES ------------------ */
+
+/* Small phones */
+@media (max-width: 480px) {
+  .divtop { height: 12vh; }
+  .centerlogo { height: 20vh; margin-top: 10px; }
+  main { height: 30vh; }
+  .navbar { font-size: 12px; padding: 0 10px; height: 50px; }
+  .nav-right li a img { max-height: 1.2em; }
+  footer { height: 12vh; padding-top: 5px; font-size: 12px; }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .divtop { height: 13vh; }
+  .centerlogo { height: 25vh; margin-top: 15px; }
+  main { height: 35vh; }
+  .navbar { font-size: 14px; padding: 0 15px; height: 55px; }
+  .nav-right li a img { max-height: 1.3em; }
+  footer { height: 10vh; padding-top: 8px; font-size: 14px; }
+}
+
+/* Laptops / small desktops */
+@media (max-width: 1024px) {
+  .divtop { height: 14vh; }
+  .centerlogo { height: 28vh; margin-top: 18px; }
+  main { height: 38vh; }
+  .navbar { font-size: 16px; padding: 0 18px; height: 58px; }
+  .nav-right li a img { max-height: 1.4em; }
+}
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  .divtop { height: 16vh; }
+  .centerlogo { height: 32vh; }
+  main { height: 42vh; }
+  .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
+  .nav-right li a img { max-height: 1.5em; }
+}
 
 
 
