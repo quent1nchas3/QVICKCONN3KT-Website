@@ -46,6 +46,7 @@ main {
   align-items: center;
   width: 100%;
 	background-color: black;
+	padding-top: 3px;
 }
 
 .centerlogo img {
@@ -149,6 +150,7 @@ ul {
 
 ul li {
   	align-items: center;}
+
 
 
 
