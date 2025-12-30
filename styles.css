@@ -50,7 +50,7 @@ main {
 }
 
 .centerlogo img {
-  height: 85%;
+  height: 100%;
   width: auto;
   max-width: 95%;
   display: block;
@@ -148,6 +148,7 @@ ul {
 
 ul li {
   	align-items: center;}
+
 
 
 
