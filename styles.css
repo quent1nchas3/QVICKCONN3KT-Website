@@ -35,7 +35,7 @@ main {
   height: 35vh;
   background-color: black;
   width: 100%;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -135,6 +135,7 @@ footer {
   padding-top: 10px;
   text-align: center;
 }
+
 
 
 
