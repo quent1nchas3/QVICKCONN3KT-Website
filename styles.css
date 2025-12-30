@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'QCfont';
-  src: url('FoughtknightRegular-Xz9d.ttf') format('truefont');
+  src: url('FoughtknightRegular-Xz9d.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -137,6 +137,7 @@ footer {
   padding-top: 10px;
   text-align: center;
 }
+
 
 
 
