@@ -25,18 +25,20 @@ main {
 }
 
 .centerlogo {
-  height: 50vh; 
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .centerlogo img {
-  height: 85%; 
+  height: 85%;
   width: auto;
   max-width: 95%;
   display: block;
 }
+
 
 .navbar {
   display: flex;
@@ -116,6 +118,7 @@ footer {
   padding-top: 10px;
   text-align: center;
 }
+
 	
 ul {
   	justify-content: center;
@@ -148,6 +151,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
