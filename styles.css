@@ -3,95 +3,84 @@
   	font-family: 'QCfont';        
   	src: url('FoughtknightRegular-Xz9d.ttf') format('ttf');
  	font-weight: normal;
-  	font-style: normal;
-}
+  	font-style: normal;}
 
 body {
-    	font-family: Aptos, Arial, Verdana;
+    font-family: Aptos, Arial, Verdana;
 	background-color: white;
 	height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;}
 
-
 main {
 	background-color: black;
 	height: 500px;
 	width: 100%;}
 
-
-/* Navbar container */
 .navbar {
-	display: flex;                 /* Horizontal layout */
-	justify-content: space-between; /* Push left/right containers apart */
-	align-items: center;           /* Vertical centering */
-	height: 60px;                  /* Fixed navbar height */
-	padding: 0 20px;               /* Optional horizontal spacing */
+	display: flex;                
+	justify-content: space-between; 
+	align-items: center;          
+	height: 60px;                
+	padding: 0 20px;              
 	background-color: white;   
-	position: fixed;   /* keeps element fixed on screen */
-	top: 0;            /* stick to top */
-	left: 0;           /* align to left edge */
-	width: 100%;       /* full page width */
-	z-index: 1000;  /* Preserve your original background */
-}
+	position: fixed;  
+	top: 0;          
+	left: 0;          
+	width: 100%;      
+	z-index: 1000; }
 
 nav a {
-	  color: black;
-	  text-transform: uppercase;
-	  text-decoration: none;
-	  padding: 6px;
-	  display: inline-flex;          
-	  justify-content: center;
-	  align-items: center;
-}
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px;
+	display: inline-flex;          
+	justify-content: center;
+	align-items: center;}
 
 nav a:hover,
 nav a:active,
 nav a:focus {
-  font-weight: bold;
-}
+	font-weight: bold;}
 
 .navicon-left {
-  display: flex;                
-  gap: 15px;                     
-  align-items: center;
-  height: 100%;
-}
+	display: flex;                
+	gap: 15px;                     
+	align-items: center;
+	height: 100%;}
 
 .navicon-right {
-  display: flex;                
-  gap: 10px;                    
-  align-items: center;
-  height: 100%;
-}
+	display: flex;                
+	gap: 10px;                    
+	align-items: center;
+	height: 100%;}
 
 .navicon-right img {
-  max-height: 80%;             
-  width: auto;   
-  display: block;
-}
-
+  	max-height: 80%;             
+  	width: auto;   
+  	display: block;}
 
 footer {
-  justify-content: center;
-  background-color: white;
-  text-transform: uppercase;
-  align-items: center;
-  margin: 0 auto;
-  color: black;
-  text-align: center;}
+  	justify-content: center;
+  	background-color: white;
+  	text-transform: uppercase;
+  	align-items: center;
+  	margin: 0 auto;
+  	color: black;
+  	text-align: center;}
 	
 ul {
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;}
+  	justify-content: center;
+  	align-items: center;
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	display: flex;}
 
 ul li {
-  align-items: center;
+  	align-items: center;
 	padding: 10px;}
 
 .divtop {
@@ -99,17 +88,18 @@ ul li {
 	height: 15vh;
 	display: flex;
 	justify-content: center;
-    position: fixed;   /* keeps element fixed on screen */
-    top: 0;            /* stick to top */
-    left: 0;           /* align to left edge */
-    width: 100%;       /* full page width */
-    z-index: 1000;  }
+    	position: fixed;   
+    	top: 0;           
+    	left: 0;          
+    	width: 100%;     
+    	z-index: 1000;  }
 
 .divtop img {
 	max-height: 95%;
 	max-width: 95%;
 	padding-top: 1%;
 	padding-bottom: 1%;}
+
 
 
 
