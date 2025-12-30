@@ -69,6 +69,22 @@ nav a:active,
 nav a:focus {
 	font-weight: bold;}
 
+.centerlogo {
+	  background-color: black;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5%; 
+  box-sizing: border-box;
+.centerlogo img {
+  max-height: 95%;
+  max-width: 95%;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
 nav a {
 	color: black;
 	text-transform: uppercase;
@@ -117,6 +133,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
