@@ -25,7 +25,7 @@ main {
 }
 
 .centerlogo {
-  height: 50vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,6 +151,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
