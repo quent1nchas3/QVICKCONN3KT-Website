@@ -61,6 +61,7 @@ main {
 .navbar {
   display: flex;
   background-color: white;
+	font-weight: bold;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
@@ -93,6 +94,7 @@ font-size: clamp(14px, 1.2vw, 18px);
 
 .nav-left li a {
   background-color: white;
+	font-weight: black;
   color: black;
   text-decoration: none;
   margin-right: 0;
@@ -150,6 +152,7 @@ ul {
 
 ul li {
   	align-items: center;}
+
 
 
 
