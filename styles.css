@@ -23,11 +23,11 @@ main {
 
 .centerlogo {
 	  background-color: black;
-  height: 50vh;
+  height: 100%;
+	width: 100%
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5%; 
   box-sizing: border-box;}
 .centerlogo img {
   max-height: 85%;
@@ -147,6 +147,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
