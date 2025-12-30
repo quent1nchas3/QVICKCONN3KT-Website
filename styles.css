@@ -92,19 +92,14 @@ ul li {
 .divtop {
 	background-color: black;
 	height: 15vh;
-	display: flex;
-	justify-content: center;
-    	position: fixed;   
-    	top: 0;           
-    	left: 0;          
-    	width: 100%;     
-    	z-index: 1000;  }
+	display: flex;}
 
 .divtop img {
 	max-height: 95%;
 	max-width: 95%;
 	padding-top: 1%;
 	padding-bottom: 1%;}
+
 
 
 
