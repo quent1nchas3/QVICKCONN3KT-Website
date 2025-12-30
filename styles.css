@@ -122,5 +122,19 @@ nav a:hover,
 nav a:active,
 nav a:focus
 
+footer {
+  font-family: QCfont, Aptos, Arial, Verdana;
+  background-color: white;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
+  text-align: center;
+}
+
 
 
