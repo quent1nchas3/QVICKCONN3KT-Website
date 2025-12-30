@@ -102,7 +102,12 @@ ul li {
 	max-height: 95%;
 	max-width: 95%;
 	padding-top: 1%;
-	padding-bottom: 1%;}
+	padding-bottom: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5%;}
+
 
 
 
