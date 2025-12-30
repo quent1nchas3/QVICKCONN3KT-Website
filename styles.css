@@ -80,7 +80,7 @@ nav a:focus {
 
 .centerlogo {
 	  background-color: black;
-  height: 50%;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,6 +147,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
