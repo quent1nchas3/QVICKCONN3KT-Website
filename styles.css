@@ -79,6 +79,7 @@ nav a {
 	align-items: center;}
 
 footer {
+	font-family: QCfont, Aptos, Arial, Verdana;
   	justify-content: center;
   	background-color: white;
   	text-transform: uppercase;
@@ -116,6 +117,7 @@ ul li {
   width: auto;
   display: block;
 }
+
 
 
 
