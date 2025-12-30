@@ -72,7 +72,7 @@ main {
   background-color: white;
   font-family: 'QCfont', Aptos, Arial, Verdana;
   font-weight: bold;
-  font-size: clamp(14px, 1.2vw, 18px);
+  font-size: clamp(21px, 1.8vw, 27px);
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
@@ -111,7 +111,7 @@ main {
 }
 
 .nav-right li a img {
-  max-height: 2em;
+  max-height: 3em;
   width: auto;
   flex-shrink: 1;
   display: block;
@@ -134,6 +134,7 @@ footer {
   background-color: white;
   text-transform: uppercase;
   color: black;
+  font-size: 2em;
   font-weight: bold;
   min-height: 10vh;
   display: flex;
@@ -182,6 +183,7 @@ footer {
   .navbar { font-size: 18px; padding: 0 20px; height: 60px; }
   .nav-right li a img { max-height: 1.5em; }
 }
+
 
 
 
