@@ -35,7 +35,7 @@ main {
   height: 35vh;
   background-color: black;
   width: 100%;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -122,3 +122,4 @@ nav a {
 nav a:hover,
 nav a:active,
 nav a:focus
+
