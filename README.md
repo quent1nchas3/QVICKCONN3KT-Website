@@ -10,8 +10,6 @@ Second, the website functions as a living exhibit of my skills as a software dev
 
 -CSS for layout, styling, and responsive design
 
--Adobe Photoshop for icons, visual design, and graphics
-
 #Purpose & Vision
 
 This project reflects both my creative and technical interests. It is designed to evolve over time, growing alongside my music business while continuously showcasing my development skills, experimentation, and learning as a software developer.
