@@ -241,6 +241,10 @@ main {
   margin-top: 120px;
 }
 
+.social-section-title.large-gap {
+  margin-top: 360px;
+}
+
 .section-subtitle {
   text-align: center;
   color: var(--gray-mid);
