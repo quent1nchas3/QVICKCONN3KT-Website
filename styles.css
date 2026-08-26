@@ -123,12 +123,10 @@ img { display: block; max-width: 100%; }
   width: 22px;
   height: 22px;
   object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.7;
-  transition: opacity var(--transition);
+  transition: transform var(--transition);
 }
 
-.nav-right li a:hover img { opacity: 1; }
+.nav-right li a:hover img { transform: scale(1.1); }
 
 /* ===== MAIN LAYOUT ===== */
 main {
@@ -312,7 +310,6 @@ main {
 .platform-link img {
   width: 20px;
   height: 20px;
-  filter: brightness(0) invert(1);
 }
 
 /* ===== MUSIC GRID ===== */
@@ -384,18 +381,17 @@ main {
 }
 
 .track-platforms a:hover {
-  background: var(--accent);
+  background: var(--gray-dark);
   transform: translateY(-2px);
 }
 
 .track-platforms a img {
   width: 18px;
   height: 18px;
-  filter: brightness(0) invert(1);
-  transition: filter var(--transition);
+  transition: transform var(--transition);
 }
 
-.track-platforms a:hover img { filter: brightness(0); }
+.track-platforms a:hover img { transform: scale(1.15); }
 
 /* ===== PRODUCTS GRID ===== */
 .products-grid {
@@ -668,19 +664,18 @@ main {
 }
 
 .social-bar a:hover {
-  background: var(--accent);
+  background: var(--gray-dark);
   transform: translateY(-3px);
-  box-shadow: 0 4px 16px var(--accent-glow);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
 .social-bar a img {
   width: 22px;
   height: 22px;
-  filter: brightness(0) invert(1);
-  transition: filter var(--transition);
+  transition: transform var(--transition);
 }
 
-.social-bar a:hover img { filter: brightness(0); }
+.social-bar a:hover img { transform: scale(1.15); }
 
 /* ===== FOOTER ===== */
 footer {
