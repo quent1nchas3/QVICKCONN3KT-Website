@@ -237,6 +237,10 @@ main {
   letter-spacing: 1px;
 }
 
+.social-section-title {
+  margin-top: 120px;
+}
+
 .section-subtitle {
   text-align: center;
   color: var(--gray-mid);
