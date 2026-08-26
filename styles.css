@@ -57,10 +57,19 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+.divtop a {
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: center;
+}
+
 .divtop img {
+  width: 100%;
+  max-width: var(--max-width);
   height: 60px;
-  width: auto;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* ===== NAVBAR ===== */
