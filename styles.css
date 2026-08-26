@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'QCfont';
-  src: url('FoughtknightRegular-Xz9d.ttf') format('truetype'),
-       url('FoughtKnight.woff') format('woff'),
-       url('FoughtKnight.woff2') format('woff2');
+  src: url('assets/fonts/FoughtknightRegular-Xz9d.ttf') format('truetype'),
+       url('assets/fonts/FoughtKnight.woff') format('woff'),
+       url('assets/fonts/FoughtKnight.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
