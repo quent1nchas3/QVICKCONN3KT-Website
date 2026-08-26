@@ -792,7 +792,7 @@ footer {
 }
 
 footer p {
-  font-family: 'QCfont', 'Inter', sans-serif;
+  font-family: 'Calibri', 'Inter', sans-serif;
   color: var(--gray-mid);
   font-size: 13px;
   letter-spacing: 0.5px;
