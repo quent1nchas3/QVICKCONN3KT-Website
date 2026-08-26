@@ -49,27 +49,60 @@
     <h2 class="section-title featured-title">Featured Release</h2>
     <p class="section-subtitle">Coming soon on all major platforms</p>
 
-    <div class="featured-release">
-      <img src="PhatKitty Album CoverDONE.png" alt="Latest Release Cover" class="featured-cover">
-      <div class="featured-info">
-        <span class="label">New Album</span>
-        <h2>PHATKITTY</h2>
-        <p>The latest album from QVICF3R — gritty sound, heavy bass, and euphoric rhythms.</p>
-        <div class="platform-links">
-          <a href="https://open.spotify.com/artist/7BhhKYyqHJSTlQUpewbyjT" target="_blank" rel="noopener" class="platform-link">
-            <img src="Spotify.png" alt="Spotify"> Spotify
-          </a>
-          <a href="https://music.apple.com/us/artist/quickconnekt/1852442297" target="_blank" rel="noopener" class="platform-link">
-            <img src="applemusicpng.png" alt="Apple Music"> Apple Music
-          </a>
-          <a href="https://soundcloud.com/qvcif3r" target="_blank" rel="noopener" class="platform-link">
-            <img src="soundcloud-icon.svg" alt="SoundCloud"> SoundCloud
-          </a>
-          <a href="https://youtube.com/" target="_blank" rel="noopener" class="platform-link">
-            <img src="youtube-icon.svg" alt="YouTube"> YouTube
-          </a>
+    <div class="album-carousel">
+      <button class="album-arrow album-arrow-prev" id="album-prev" aria-label="Previous album">&#10094;</button>
+      <div class="album-slides">
+        <div class="album-slide active" data-album="phatkitty">
+          <div class="featured-release">
+            <img src="PhatKitty Album CoverDONE.png" alt="PHATKITTY Album Cover" class="featured-cover">
+            <div class="featured-info">
+              <span class="label">New Album</span>
+              <h2>PHATKITTY</h2>
+              <p>The latest album from QVICF3R — gritty sound, heavy bass, and euphoric rhythms.</p>
+              <div class="platform-links">
+                <a href="https://open.spotify.com/artist/7BhhKYyqHJSTlQUpewbyjT" target="_blank" rel="noopener" class="platform-link">
+                  <img src="Spotify.png" alt="Spotify"> Spotify
+                </a>
+                <a href="https://music.apple.com/us/artist/quickconnekt/1852442297" target="_blank" rel="noopener" class="platform-link">
+                  <img src="applemusicpng.png" alt="Apple Music"> Apple Music
+                </a>
+                <a href="https://soundcloud.com/qvcif3r" target="_blank" rel="noopener" class="platform-link">
+                  <img src="soundcloud-icon.svg" alt="SoundCloud"> SoundCloud
+                </a>
+                <a href="https://youtube.com/" target="_blank" rel="noopener" class="platform-link">
+                  <img src="youtube-icon.svg" alt="YouTube"> YouTube
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="album-slide" data-album="deadpilot">
+          <div class="featured-release">
+            <img src="DEADPILOT_ALBUMCOVER.png" alt="Dead Pilot Album Cover" class="featured-cover">
+            <div class="featured-info">
+              <span class="label">Previous Album</span>
+              <h2>DEAD PILOT</h2>
+              <p>QVCIFER's debut album — a retro-inspired techno journey that pulls you straight into the underground. Analog warmth, pulsing rhythms, and vintage synths collide for a sound that's equal parts nostalgia and forward thrust.</p>
+              <div class="platform-links">
+                <a href="https://open.spotify.com/artist/7BhhKYyqHJSTlQUpewbyjT" target="_blank" rel="noopener" class="platform-link">
+                  <img src="Spotify.png" alt="Spotify"> Spotify
+                </a>
+                <a href="https://music.apple.com/us/artist/quickconnekt/1852442297" target="_blank" rel="noopener" class="platform-link">
+                  <img src="applemusicpng.png" alt="Apple Music"> Apple Music
+                </a>
+                <a href="https://soundcloud.com/qvcif3r" target="_blank" rel="noopener" class="platform-link">
+                  <img src="soundcloud-icon.svg" alt="SoundCloud"> SoundCloud
+                </a>
+                <a href="https://youtube.com/" target="_blank" rel="noopener" class="platform-link">
+                  <img src="youtube-icon.svg" alt="YouTube"> YouTube
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <button class="album-arrow album-arrow-next" id="album-next" aria-label="Next album">&#10095;</button>
     </div>
   </section>
 
@@ -90,5 +123,37 @@
 <footer>
   <p>Copyright <span style="font-family: 'Calibri', sans-serif;">&copy;</span> 2024 QVICKCONN3KT<br>All rights reserved</p>
 </footer>
+<script>
+(function() {
+  var slides = document.querySelectorAll('.album-slide');
+  var prevBtn = document.getElementById('album-prev');
+  var nextBtn = document.getElementById('album-next');
+  var current = 0;
+
+  function showSlide(index) {
+    slides.forEach(function(slide, i) {
+      slide.classList.toggle('active', i === index);
+    });
+    prevBtn.style.opacity = index === 0 ? '0.3' : '1';
+    nextBtn.style.opacity = index === slides.length - 1 ? '0.3' : '1';
+  }
+
+  prevBtn.addEventListener('click', function() {
+    if (current > 0) {
+      current--;
+      showSlide(current);
+    }
+  });
+
+  nextBtn.addEventListener('click', function() {
+    if (current < slides.length - 1) {
+      current++;
+      showSlide(current);
+    }
+  });
+
+  showSlide(current);
+})();
+</script>
 </body>
 </html>
