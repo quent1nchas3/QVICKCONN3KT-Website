@@ -46,8 +46,8 @@
   </section>
 
   <section>
-    <h2 class="section-title featured-title">Featured Release</h2>
-    <p class="section-subtitle">Coming soon on all major platforms</p>
+    <h2 class="section-title featured-title" id="album-section-title">Featured Release</h2>
+    <p class="section-subtitle" id="album-section-subtitle">Coming soon on all major platforms</p>
 
     <div class="album-carousel">
       <button class="album-arrow album-arrow-prev" id="album-prev" aria-label="Previous album">&#10094;</button>
@@ -128,6 +128,8 @@
   var slides = document.querySelectorAll('.album-slide');
   var prevBtn = document.getElementById('album-prev');
   var nextBtn = document.getElementById('album-next');
+  var titleEl = document.getElementById('album-section-title');
+  var subtitleEl = document.getElementById('album-section-subtitle');
   var current = 0;
 
   function showSlide(index) {
@@ -136,6 +138,13 @@
     });
     prevBtn.style.opacity = index === 0 ? '0.3' : '1';
     nextBtn.style.opacity = index === slides.length - 1 ? '0.3' : '1';
+    if (index === 0) {
+      titleEl.textContent = 'Featured Release';
+      subtitleEl.textContent = 'Coming soon on all major platforms';
+    } else {
+      titleEl.textContent = 'Past Release';
+      subtitleEl.textContent = 'Available now on all major streaming platforms';
+    }
   }
 
   prevBtn.addEventListener('click', function() {

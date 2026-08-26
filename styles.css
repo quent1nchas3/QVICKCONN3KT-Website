@@ -130,6 +130,7 @@ img { display: block; max-width: 100%; }
   width: 22px;
   height: 22px;
   object-fit: contain;
+  border-radius: 50%;
   transition: transform var(--transition);
 }
 
@@ -358,16 +359,17 @@ main {
 .album-slides {
   flex: 1;
   position: relative;
+  overflow: hidden;
   min-height: 0;
 }
 
 .album-slide {
-  display: none;
+  display: none !important;
   width: 100%;
 }
 
 .album-slide.active {
-  display: block;
+  display: block !important;
   animation: fadeIn 0.4s ease;
 }
 
@@ -828,6 +830,8 @@ main {
 .social-bar a img {
   width: 22px;
   height: 22px;
+  object-fit: contain;
+  border-radius: 50%;
   transition: transform var(--transition);
 }
 
