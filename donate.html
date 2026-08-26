@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>QVICKCONN3KT — Contact</title>
+    <title>QVICKCONN3KT — Donate</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Get in touch with QVICKCONN3KT for bookings, collaborations, and inquiries." />
+    <meta name="description" content="Support QVICKCONN3KT by making a donation via PayPal." />
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="white_qc_small.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,8 +21,8 @@
     <li><a href="music.html">Music</a></li>
     <li><a href="products.html">Products</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="donate.html">Donate</a></li>
-    <li><a href="contact.html" class="active">Contact</a></li>
+    <li><a href="donate.html" class="active">Donate</a></li>
+    <li><a href="contact.html">Contact</a></li>
   </ul>
   <ul class="nav-right">
     <li><a href="https://www.facebook.com/profile.php?id=61558457154444" target="_blank" rel="noopener"><img src="facebookIcon.png" alt="Facebook"></a></li>
@@ -35,38 +35,25 @@
 </nav>
 
 <main>
-  <div class="contact-wrapper">
-    <h2 class="section-title">Get In Touch</h2>
-    <p class="section-subtitle">Bookings, collaborations, or just want to say hello?</p>
+  <div class="donate-wrapper">
+    <h2 class="section-title">Support the Music</h2>
+    <p class="section-subtitle">Your support keeps the beats coming</p>
 
-    <form class="contact-form" id="contact-form" novalidate>
-      <div class="form-status" id="form-status"></div>
+    <div class="donate-card">
+      <h3>Donate to QVICKCONN3KT</h3>
+      <p>Every contribution helps fund new music, better production, and more releases. If you enjoy the tracks and want to help keep the project going, consider making a donation. Any amount is appreciated.</p>
 
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name" required>
+      <div class="donate-amounts">
+        <button class="donate-amount" data-amount="5">$5</button>
+        <button class="donate-amount" data-amount="10">$10</button>
+        <button class="donate-amount" data-amount="25">$25</button>
+        <button class="donate-amount" data-amount="50">$50</button>
+        <button class="donate-amount" data-amount="100">$100</button>
       </div>
 
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com" required>
-      </div>
+      <a href="https://www.paypal.biz/qvickconn3kt" target="_blank" rel="noopener" class="donate-btn" id="donate-link">Donate via PayPal</a>
 
-      <div class="form-group">
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
-      </div>
-
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Tell me more..." required></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">Send Message</button>
-    </form>
-
-    <div class="contact-info">
-      <p>You can also reach out on any platform — links are in the navigation bar above.</p>
+      <p class="donate-note">You'll be redirected to PayPal to complete your donation securely.</p>
     </div>
   </div>
 
@@ -84,7 +71,18 @@
   <p>Copyright &copy; 2024 QVICKCONN3KT<br>All rights reserved</p>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="javascript.js"></script>
+<script>
+document.querySelectorAll('.donate-amount').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.donate-amount').forEach(function(b) {
+      b.classList.remove('selected');
+    });
+    btn.classList.add('selected');
+    var amount = btn.getAttribute('data-amount');
+    var link = document.getElementById('donate-link');
+    link.href = 'https://www.paypal.biz/qvickconn3kt?amount=' + amount;
+  });
+});
+</script>
 </body>
 </html>
