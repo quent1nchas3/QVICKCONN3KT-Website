@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>QuickConnekt</title>
+    <title>QuickConnekt — Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get in touch with QuickConnekt for bookings, collaborations, and inquiries." />
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="white_qc_small.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <div class="divtop">
-        <img src="QUICKCONNEKT using font WHITE.png" alt="QuickConnekt">
+        <a href="index.html"><img src="QUICKCONNEKT using font WHITE.png" alt="QuickConnekt"></a>
     </div>
 
 <nav class="navbar">
@@ -19,50 +21,69 @@
     <li><a href="music.html">Music</a></li>
     <li><a href="products.html">Products</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
   </ul>
   <ul class="nav-right">
-    <li><a href="https://www.facebook.com/profile.php?id=61558457154444">
-      <img src="NEWfacebook.png" alt="Facebook">
-    </a></li>
-    <li><a href="https://www.instagram.com/quickconnekt/?hl=en">
-      <img src="Instagram-Logo-Black-And-White-PNG-HD-Isolated.png" alt="Instagram">
-    </a></li>
-    <li><a href="https://music.apple.com/us/artist/quickconnekt/1852442297">
-      <img src="Apple-Music-Logo.png" alt="Apple Music">
-    </a></li>
-    <li><a href="https://open.spotify.com/artist/7BhhKYyqHJSTlQUpewbyjT">
-      <img src="Spotify.png" alt="Spotify">
-    </a></li>
-    <li><a href="https://soundcloud.com/quickconnekt">
-      <img src="soundcloud.png" alt="Soundcloud">
-    </a></li>
-    <li><a href="https://youtube.com/">
-      <img src="Youtube.png" alt="Youtube">
-    </a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=61558457154444" target="_blank" rel="noopener"><img src="NEWfacebook.png" alt="Facebook"></a></li>
+    <li><a href="https://www.instagram.com/quickconnekt/?hl=en" target="_blank" rel="noopener"><img src="Instagram-Logo-Black-And-White-PNG-HD-Isolated.png" alt="Instagram"></a></li>
+    <li><a href="https://music.apple.com/us/artist/quickconnekt/1852442297" target="_blank" rel="noopener"><img src="Apple-Music-Logo.png" alt="Apple Music"></a></li>
+    <li><a href="https://open.spotify.com/artist/7BhhKYyqHJSTlQUpewbyjT" target="_blank" rel="noopener"><img src="Spotify.png" alt="Spotify"></a></li>
+    <li><a href="https://soundcloud.com/quickconnekt" target="_blank" rel="noopener"><img src="soundcloud.png" alt="Soundcloud"></a></li>
+    <li><a href="https://youtube.com/" target="_blank" rel="noopener"><img src="Youtube.png" alt="Youtube"></a></li>
   </ul>
 </nav>
 
- <main>
- </main>
-    
-<div class="centerlogo">
-    <img src="white_qc_big.png" alt="QuickConnekt">
-</div>
-    
+<main>
+  <div class="contact-wrapper">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Bookings, collaborations, or just want to say hello?</p>
+
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="form-status" id="form-status"></div>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell me more..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>You can also reach out on any platform — links are in the navigation bar above.</p>
+    </div>
+  </div>
+
+  <div class="social-bar">
+    <a href="https://www.facebook.com/profile.php?id=61558457154444" target="_blank" rel="noopener"><img src="NEWfacebook.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/quickconnekt/?hl=en" target="_blank" rel="noopener"><img src="Instagram-Logo-Black-And-White-PNG-HD-Isolated.png" alt="Instagram"></a>
+    <a href="https://music.apple.com/us/artist/quickconnekt/1852442297" target="_blank" rel="noopener"><img src="Apple-Music-Logo.png" alt="Apple Music"></a>
+    <a href="https://open.spotify.com/artist/7BhhKYyqHJSTlQUpewbyjT" target="_blank" rel="noopener"><img src="Spotify.png" alt="Spotify"></a>
+    <a href="https://soundcloud.com/quickconnekt" target="_blank" rel="noopener"><img src="soundcloud.png" alt="SoundCloud"></a>
+    <a href="https://youtube.com/" target="_blank" rel="noopener"><img src="Youtube.png" alt="YouTube"></a>
+  </div>
+</main>
+
 <footer>
-        <p>Copyright &copy 2024 QuickConnekt<br>All rights reserved</p>
+  <p>Copyright &copy; 2024 QuickConnekt<br>All rights reserved</p>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="javascript.js"></script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
+</html>
