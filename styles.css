@@ -155,7 +155,7 @@ main {
   width: 220px;
   height: auto;
   margin: 0 auto 32px;
-  filter: drop-shadow(0 0 30px var(--accent-glow));
+  filter: drop-shadow(0 0 30px rgba(0, 229, 255, 0.45));
   animation: fadeInUp 0.8s ease;
 }
 
